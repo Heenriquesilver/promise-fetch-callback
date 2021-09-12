@@ -1,3 +1,7 @@
+/*aqui estou utilizando o fetch() e passando como segundo parâmetro o método "POST". 
+Perceba que nesse segundo parâmetro estou passando um objeto que será inserido por meio de uma requisição.  
+*/
+
 
 async function inserirPost(){
     let html = document.getElementById('posts').innerHTML="Carregando"
