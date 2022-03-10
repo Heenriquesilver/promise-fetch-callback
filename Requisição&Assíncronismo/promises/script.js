@@ -1,7 +1,7 @@
 
 
 function pegarTemperatura(){
-    return new Promise(function(resolve, reject) {
+    return new Promise((resolve, reject) => {
         console.log('pegando temperatura...');
 
         setTimeout(function(){
