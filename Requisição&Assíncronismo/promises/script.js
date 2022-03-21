@@ -4,7 +4,7 @@ function pegarTemperatura(){
     return new Promise((resolve, reject) => {
         console.log('pegando temperatura...');
 
-        setTimeout(function(){
+        setTimeout(()=>{
             resolve('40 Graus');
         }, 2000);
     });
